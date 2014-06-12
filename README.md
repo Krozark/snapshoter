@@ -22,5 +22,6 @@ user@host:~path$ sudo snapshoter.sh -p pid -t timeout -l limit
 to restore, use criu as:
 
 user@host:~path$ cd dir
+
 user@host:~path$ sudo criu restore --shell-job
 
