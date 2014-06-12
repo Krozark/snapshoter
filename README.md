@@ -14,3 +14,5 @@ Linux kernel 3.9+
 usage
 -----
 
+user@host:~path$ sudo snapshoter.sh -p pid -t timeout -l limit
+
