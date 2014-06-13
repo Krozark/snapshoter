@@ -58,8 +58,8 @@ save(){
 i=0
 while true
 do
-    save $i $PID
     sleep $TIMEOUT
+    save $i $PID
     i=`expr $i + 1`
     if test $i -gt $LIMIT;then
         i=0
